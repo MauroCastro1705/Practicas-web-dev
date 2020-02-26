@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,17 +8,8 @@
     <link rel="stylesheet" href="styles\styles.scss">
     <title>Page transition</title>
 </head>
-<body>
-    
-    
-    <nav>
-        <ul class="nav-list">
-            <li><a class="nav-links" href="/index.html">Home</a></li>
-            <li><a class="nav-links" href="/about.html">About</a></li>
-            <li><a class="nav-links" href="/contact.html">Contact</a></li>
-        </ul>          
-    </nav>
 
+<body>
     <!---------------------Secccion que se va a animar------------------->
     <main data-router-wrapper>
         <section data-router-view="about" class="about">
@@ -27,11 +19,12 @@
                     <p>Aprendiendo mas sobre transiciones</p>
                 </div>
                 <img src="/images/about.svg" alt="about">
-            </div>            
+            </div>
         </section>
     </main>
 
     <script src="/js/index.js"></script>
 
 </body>
+
 </html>
