@@ -1,0 +1,23 @@
+.receta {
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px rgb(71, 71, 71);
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: white;
+  max-width: 30%;
+}
+
+.receta h1 {
+  font-size: 18px;
+}
+
+.receta ol {
+  list-style: none;
+}
+
+.imagen {
+  width: 300px;
+  height: 300px;
+}
