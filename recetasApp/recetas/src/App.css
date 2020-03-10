@@ -1,6 +1,6 @@
 .App {
   min-height: 100vh;
-  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background-color: #999;
   margin: 0;
   padding: 0;
 }
@@ -21,6 +21,7 @@
   width: 50%;
   border: none;
   padding: 10px;
+  margin-top: 50px;
 }
 
 .search-button {
@@ -28,12 +29,11 @@
   padding: 10px 20px;
   color: black;
   background-color: whitesmoke;
+  margin-top: 50px;
 }
 
 .recetas {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding: 50px;
-  margin-left: 20px;
 }

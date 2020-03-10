@@ -3,21 +3,26 @@ import "./navigation.css";
 
 const Navigation = props => (
   <header className="toolbar">
-    <nav className="toolbar__navigation">
-      <div></div>
-      <div className="toolbar__logo">
+    <nav>
+      <div className="logo">
         <a href="/">Recetas Saludables</a>
       </div>
-      <div className="spacer" />
-      <ul className="toolbar_navigation-items">
+
+      <ul className="lista">
         <li>
-          <a href="/">Home</a>
+          <a className="btn" href="/">
+            Home
+          </a>
         </li>
         <li>
-          <a href="/">Recetas</a>
+          <a className="btn" href="/">
+            Recetas
+          </a>
         </li>
         <li>
-          <a href="/">Contacto</a>
+          <a className="btn" href="/">
+            Contacto
+          </a>
         </li>
       </ul>
     </nav>
