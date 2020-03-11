@@ -1,32 +1,51 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./navigation.css";
 
-const Navigation = props => (
-  <header className="toolbar">
-    <nav>
-      <div className="logo">
-        <a href="/">Recetas Saludables</a>
-      </div>
+function Navigation() {
+  const navStyle = {
+    color: "black"
+  };
 
-      <ul className="lista">
-        <li>
-          <a className="btn" href="/">
-            Home
-          </a>
-        </li>
-        <li>
-          <a className="btn" href="/">
-            Recetas
-          </a>
-        </li>
-        <li>
-          <a className="btn" href="/">
-            Contacto
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-);
+  return (
+    <header className="toolbar">
+      <nav>
+        <div className="logo">
+          <a href="/">Recetas Saludables</a>
+        </div>
+
+        <ul className="lista">
+          <Link style={{ textDecoration: "none", color: "white" }} to="/home">
+            <li>
+              <a className="btn" href="/">
+                Home
+              </a>
+            </li>
+          </Link>
+          <Link
+            style={{ textDecoration: "none", color: "white" }}
+            to="/recetas"
+          >
+            <li>
+              <a className="btn" href="/">
+                Recetas
+              </a>
+            </li>
+          </Link>
+          <Link
+            style={{ textDecoration: "none", color: "white" }}
+            to="/contacto"
+          >
+            <li>
+              <a className="btn" href="/">
+                Contacto
+              </a>
+            </li>
+          </Link>
+        </ul>
+      </nav>
+    </header>
+  );
+}
 
 export default Navigation;
