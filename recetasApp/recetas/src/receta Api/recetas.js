@@ -9,7 +9,7 @@ const RecetaApi = () => {
 
   const [search, setSearch] = useState(" ");
 
-  const [query, setQuery] = useState("chiken");
+  const [query, setQuery] = useState("beef");
 
   useEffect(() => {
     getRecetas();

@@ -1,14 +1,14 @@
 .receta {
   border-radius: 5px;
   box-shadow: 0px 5px 10px rgb(71, 71, 71);
-  margin: 20px;
-  padding: 20px;
+  margin: 15px;
+  padding: 15px;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-around;
   background-color: white;
-  max-width: 35%;
+  max-width: 85%;
 }
 
 .receta h1 {

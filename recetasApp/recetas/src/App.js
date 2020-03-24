@@ -1,8 +1,8 @@
 ///------IMPORTACIONES DE FUNCIONES----////
 import React from "react";
 import RecetaApi from "./receta Api/recetas";
-import Navigation from "./nav-bar/navigation";
 import Footer from "./Footer/footer";
+import Navigation from "./nav-bar/navigation";
 import Home from "./Home/home";
 import Contacto from "./Contacto/contacto";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"; /// importamos router para cambiar entre paginas///
