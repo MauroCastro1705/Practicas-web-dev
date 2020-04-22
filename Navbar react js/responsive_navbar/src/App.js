@@ -14,6 +14,8 @@ import { CSSTransition } from "react-transition-group";
 function App() {
   return (
     <Navbar>
+      <Logo />
+      <Spacer />
       <NavItem icon={<PlusIcon />} />
       <NavItem icon={<BellIcon />} />
       <NavItem icon={<MessengerIcon />} />
@@ -23,6 +25,18 @@ function App() {
       </NavItem>
     </Navbar>
   );
+}
+
+function Logo() {
+  return (
+    <div className="logo">
+      <h1>Responsive Navbar</h1>
+    </div>
+  );
+}
+
+function Spacer() {
+  return <div className="spacer"></div>;
 }
 
 function Navbar(props) {
@@ -96,9 +110,9 @@ function DropdownMenu() {
           <DropdownItem
             leftIcon="🦧"
             rightIcon={<ChevronIcon />}
-            goToMenu="animals"
+            goToMenu="animales"
           >
-            Animals
+            Animales
           </DropdownItem>
         </div>
       </CSSTransition>

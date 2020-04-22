@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: #151616;
+  background: #b4f1f1;
   font-family: roboto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -12,8 +12,8 @@ code {
 }
 
 :root {
-  --bg: #242526;
-  --bg-accent: #484a4d;
+  --bg: #1e6262;
+  --bg-accent: #3d5af1;
   --text-color: #dadce1;
   --nav-size: 60px;
   --border: 1px solid #474a4d;
@@ -42,6 +42,18 @@ a {
   border-bottom: var(--border);
 }
 
+.logo {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  right: 100px;
+  color: white;
+}
+
+.spacer {
+  width: 70%;
+}
+
 /* <ul> */
 .navbar-nav {
   max-width: 100%;
@@ -63,7 +75,7 @@ a {
   --button-size: calc(var(--nav-size) * 0.5);
   width: var(--button-size);
   height: var(--button-size);
-  background-color: #484a4d;
+  background-color: #1e6262;
   border-radius: 50%;
   padding: 5px;
   margin: 2px;
@@ -120,7 +132,7 @@ a {
 }
 
 .menu-item:hover {
-  background-color: #525357;
+  background-color: #2d767f;
 }
 
 .icon-right {
